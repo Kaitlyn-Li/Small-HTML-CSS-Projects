@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+span {
+    font-size: 100px;
+    font-weight: bold;
+    color: #111;
+    letter-spacing: 5px;
+    filter: blur(2px);
+    animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+    0%, 100% {
+        color: #fff;
+        filter: blur(2px);
+        text-shadow: 
+        0 0 10px #32ff7e,
+        0 0 20px #32ff7e,
+        0 0 30px #32ff7e,
+        0 0 40px #32ff7e,
+        0 0 100px #32ff7e,
+        0 0 200px #32ff7e,
+        0 0 300px #32ff7e,
+        0 0 400px #32ff7e;
+    }
+    5%, 95% {
+        color: #111;
+        filter: blur(0px);
+        text-shadow: none;
+    }
+}
