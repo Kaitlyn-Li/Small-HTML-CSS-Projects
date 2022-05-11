@@ -16,3 +16,31 @@ If I have enough time, I would love to expand some of these projects further and
 
 I learned the success of a project is not detemrined by its triviality.
 
+## Examples: 
+
+<table bordercolor="#66b2b2">
+  
+  <tr>
+    <td width="33.3%"  style="align:center;" valign="top">
+<a target="_blank" href="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/tree/main/Special_Hover_Effect">Special Hover Effect</a>
+        <br />
+      <a target="_blank" href="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/tree/main/Special_Hover_Effect">
+            <img src="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/blob/main/Special_Hover_Effect/output.gif" width="100%"  alt="Speial Hover Effect output"/>
+        </a>
+    </td>
+    <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/tree/main/Sweep_Effect"> Sweep Effect</a>
+      <br />
+        <a target="_blank" href="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/tree/main/Sweep_Effect">
+          <img src="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/blob/main/Sweep_Effect/output.gif" width="100%" alt="Sweep Effect output"/>
+        </a>
+    </td>
+    <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/tree/main/Shiny_Metallic_Text">Shiny Metallic Text</a>
+        <br />
+        <a target="_blank" href="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/tree/main/Shiny_Metallic_Text">
+          <img src="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/blob/main/Shiny_Metallic_Text/output.gif" width="100%" alt="Shiny Metallic Text output"/>
+        </a>
+    </td>
+  </tr>
+</table>
