@@ -43,4 +43,27 @@ I learned the success of a project is not detemrined by its triviality.
         </a>
     </td>
   </tr>
+   <tr>
+    <td width="33.3%"  style="align:center;" valign="top">
+<a target="_blank" href="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/tree/main/Neon_Greeting_Page">Neon Greeting Text</a>
+        <br />
+      <a target="_blank" href="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/tree/main/Neon_Greeting_Page">
+            <img src="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/blob/main/Neon_Greeting_Page/output.gif.gif" width="100%"  alt="Neon Greeting Text"/>
+        </a>
+    </td>
+    <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/tree/main/Glowing_Text_Extension"> Sweep Effect</a>
+      <br />
+        <a target="_blank" href="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/tree/main/Glowing_Text_Extension">
+          <img src="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/blob/main/Glowing_Text_Extension/output.gif" width="100%" alt="Animated Glowing Text"/>
+        </a>
+    </td>
+    <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/tree/main/Battery-cont">Battery Bar Charging/Recharging</a>
+        <br />
+        <a target="_blank" href="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/tree/main/Battery-cont">
+          <img src="https://github.com/Kaitlyn-Li/Small-HTML-CSS-Projects/blob/main/Battery-cont/output.gif" width="100%" alt="Battery Bar Charging/Recharging"/>
+        </a>
+    </td>
+  </tr>
 </table>
