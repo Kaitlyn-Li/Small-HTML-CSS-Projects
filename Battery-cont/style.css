@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    position: relative;
+}
+
+.battery {
+    width: 200px;
+    height: 320px;
+    background-color: #fff;
+    border-radius: 10px 10px 5px 5px;
+    position: relative;
+}
+
+.battery::before {
+    content: "";
+    width: 50px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -25px;
+    border-radius: 5px 5px 0 0;
+}
+
+.battery::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 90%;
+    bottom: 0;
+    border-radius: 10px 10px 5px 5px;
+    background: linear-gradient(to bottom, #04e963 0%, #0bdf9f 44%, #0bdfc3 100% );
+    animation: animate 8s linear infinite;
+
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 5px 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.cover::before {
+    content: "";
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    border-radius: 40% 30%;
+    left: -50%;
+    animation: coverBefore 8s linear infinite;
+}
+
+.cover::after {
+    content: "";
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    border-radius: 42% 40%;
+    left: -50%;
+    animation: coverAfter 8s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        top: 100%;
+        border-radius: 0 0 5px 5px;
+        filter: hue-rotate(90deg);
+    }
+    95% {
+        top: 5%;
+        border-radius: 0 0 5px 5px;
+    }
+    100% {
+        top: 0%;
+        filter: hue-rotate(0deg);
+    }
+}
+
+@keyframes coverBefore {
+    0% {
+        transform: rotate(0deg);
+        bottom: 0%;
+    }
+    100% {
+        transform: rotate(360deg);
+        bottom: 100%;
+    }
+}
+
+@keyframes coverAfter {
+    0% {
+        transform: rotate(30deg);
+        bottom: 2%;
+    }
+    100% {
+        transform: rotate(360deg);
+        bottom: 95%;
+    }
+}
